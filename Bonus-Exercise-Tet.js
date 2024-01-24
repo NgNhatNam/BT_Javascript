@@ -61,7 +61,6 @@ function kiem_tra_snt(x)
         ktr = false;
     }
     else{
-        // lặp từ 2 tới n-1
         for (var i = 2; i < x-1; i++)
         {
             if (x % i == 0){
@@ -70,8 +69,6 @@ function kiem_tra_snt(x)
             }
         }
     }
- 
-    // Kiểm tra biến flag
     if (ktr == true){
         console.log(x + " là số nguyên tố");
     }
