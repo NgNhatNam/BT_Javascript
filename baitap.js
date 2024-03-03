@@ -185,6 +185,4 @@ function checkInput() {
     }else{
       alert("Đăng nhập thất bại");
     }
-}
-
-
+  }
